@@ -1,0 +1,33 @@
+# RAMP-BENIN - Fichiers à ignorer
+
+# Configuration sensible
+config/database.php
+.htaccess
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Production
+.production
+
+# Uploads (si ajoutés plus tard)
+uploads/
+
